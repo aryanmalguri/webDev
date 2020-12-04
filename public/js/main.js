@@ -14,7 +14,7 @@ const getInfo = async(event) => {
     } 
     else{
         try{
-            let url = `http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=20acadc9898c37625fdc1221a5413a2b`;
+            let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=20acadc9898c37625fdc1221a5413a2b`;
             const response = await fetch(url);
             const data = await response.json();
             //console.log(data);
