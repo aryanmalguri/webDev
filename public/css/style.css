@@ -230,10 +230,10 @@ sup {
   margin-top: -2rem;
 }
 
-.data_hide {
+/* .data_hide {
   visibility: hidden;
   transition: all 0.3s linear;
-}
+} */
 /* footer code */
 footer {
   width: 100%;
